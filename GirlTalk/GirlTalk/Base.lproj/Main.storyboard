@@ -43,7 +43,11 @@
                                 <color key="barTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <navigationItem id="hUb-6t-M9J">
-                                        <barButtonItem key="rightBarButtonItem" image="arrow.right" catalog="system" id="W6m-WJ-oaJ"/>
+                                        <barButtonItem key="rightBarButtonItem" image="arrow.right" catalog="system" id="W6m-WJ-oaJ">
+                                            <connections>
+                                                <segue destination="lxq-rd-Qgd" kind="show" id="uZK-oz-xbG"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -66,14 +70,6 @@
                                 <color key="textColor" red="0.87535586320000003" green="0.80836560459999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.87535586320000003" green="0.80836560459999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ys-67-joq">
-                                <rect key="frame" x="178" y="553" width="43" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Tester"/>
-                                <connections>
-                                    <segue destination="zFz-Ua-IMo" kind="show" id="A7y-fC-u7t"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -88,7 +84,7 @@
             <objects>
                 <tableViewController id="lxq-rd-Qgd" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BoN-7N-XY9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -106,35 +102,11 @@
                             <outlet property="delegate" destination="lxq-rd-Qgd" id="h4O-rs-7wb"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="rv5-uG-On1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nP4-LY-gfs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="228" y="69"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Zd7-gt-tks">
-            <objects>
-                <viewController id="zFz-Ua-IMo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ajs-BS-Hmj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="81u-Ia-ryF">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="r3L-0O-BDU"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="zlF-32-fcV"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="DUs-O6-U5C"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pGa-Mi-jbj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-601" y="-894"/>
         </scene>
     </scenes>
     <resources>
