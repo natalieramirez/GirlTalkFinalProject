@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1244DFE724A42B0200F9A790 /* Icon-120 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 1244DFE624A42B0200F9A790 /* Icon-120 (2).png */; };
+		1244DFE924A42BA300F9A790 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1244DFE824A42BA300F9A790 /* MusicViewController.swift */; };
 		1465240824A28218000D42E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240724A28218000D42E4 /* AppDelegate.swift */; };
 		1465240A24A28218000D42E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240924A28218000D42E4 /* SceneDelegate.swift */; };
 		1465240C24A28218000D42E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240B24A28218000D42E4 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1244DFE624A42B0200F9A790 /* Icon-120 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120 (2).png"; path = "../../../../../Downloads/Icon-120 (2).png"; sourceTree = "<group>"; };
+		1244DFE824A42BA300F9A790 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		1465240424A28218000D42E4 /* GirlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1465240724A28218000D42E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1465240924A28218000D42E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		1465240624A28218000D42E4 /* GirlTalk */ = {
 			isa = PBXGroup;
 			children = (
+				1244DFE624A42B0200F9A790 /* Icon-120 (2).png */,
 				1465240724A28218000D42E4 /* AppDelegate.swift */,
 				1465240924A28218000D42E4 /* SceneDelegate.swift */,
 				1465240B24A28218000D42E4 /* ViewController.swift */,
+				1244DFE824A42BA300F9A790 /* MusicViewController.swift */,
 				1465240D24A28218000D42E4 /* Main.storyboard */,
 				1465241324A2821A000D42E4 /* Assets.xcassets */,
 				1465241524A2821A000D42E4 /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				1465241724A2821A000D42E4 /* LaunchScreen.storyboard in Resources */,
 				1465241424A2821A000D42E4 /* Assets.xcassets in Resources */,
 				1465240F24A28218000D42E4 /* Main.storyboard in Resources */,
+				1244DFE724A42B0200F9A790 /* Icon-120 (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1465240C24A28218000D42E4 /* ViewController.swift in Sources */,
+				1244DFE924A42BA300F9A790 /* MusicViewController.swift in Sources */,
 				1465240824A28218000D42E4 /* AppDelegate.swift in Sources */,
 				1465240A24A28218000D42E4 /* SceneDelegate.swift in Sources */,
 				1465241224A28218000D42E4 /* GirlTalk.xcdatamodeld in Sources */,

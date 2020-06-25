@@ -91,6 +91,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50" scale="large"/>
                                 </state>
                                 <connections>
+                                    <action selector="blah:" destination="Ddb-7J-CaN" eventType="touchUpInside" id="zGo-Oi-Zex"/>
                                     <segue destination="QRl-1Y-0H3" kind="show" id="8vC-Ne-CIB"/>
                                 </connections>
                             </button>
@@ -143,6 +144,7 @@
                     <navigationItem key="navigationItem" id="sKk-2g-2Bh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNp-HH-Dha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Ddb-7J-CaN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="173.91304347826087" y="68.973214285714278"/>
         </scene>
@@ -251,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="1111.5942028985507" y="568.52678571428567"/>
         </scene>
-        <!--music-->
+        <!--Music View Controller-->
         <scene sceneID="wpB-Hn-PtG">
             <objects>
-                <viewController title="music" id="EnM-aB-zet" sceneMemberID="viewController">
+                <viewController id="EnM-aB-zet" customClass="MusicViewController" customModule="GirlTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rRr-wn-6k1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,6 +273,29 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="empowering music" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiG-Mv-EEz">
+                                <rect key="frame" x="20" y="39" width="278" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1i2-6k-wAN" customClass="musicButton" customModule="GirlTalk" customModuleProvider="target">
+                                <rect key="frame" x="147" y="361" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Icon-120 (2).png"/>
+                                <connections>
+                                    <action selector="blah:" destination="EnM-aB-zet" eventType="touchUpInside" id="5Sv-oS-sep"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="click the icon below to hear a few powerful women" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a5E-j4-ca3">
+                                <rect key="frame" x="20" y="159" width="374" height="147.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Z7z-71-WOo"/>
@@ -279,10 +304,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Aj-8N-kTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1862" y="569"/>
+            <point key="canvasLocation" x="1860.8695652173915" y="568.52678571428567"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Icon-120 (2).png" width="120" height="120"/>
         <image name="Screen Shot 2020-06-24 at 10.34.09 AM" width="920" height="870"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
