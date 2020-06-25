@@ -10,9 +10,9 @@ import UIKit
 
 class ViewControllerMenu: UIViewController {
 
-    var userName = ""
-    var name : String = ""
-    var isStudent = false
+    var userName : String
+    var name : String
+    var isStudent : Bool
     var stud : Bool
         
     override func viewDidLoad() {
