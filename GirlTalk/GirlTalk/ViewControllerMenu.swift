@@ -9,29 +9,29 @@
 import UIKit
 
 class ViewControllerMenu: UIViewController {
+   
+    var name : String = ""
+    var stud : Bool = false
+    
+    init(name : String)
+    {
+        self.name = name
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
-    var userName : String
-    var name : String
-    var isStudent : Bool
-    var stud : Bool
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        userName = name
-        isStudent = stud
-        // Do any additional setup after loading the view.
-        print(userName)
-        print(isStudent)
+        
     }
-    
 
-//     var affirms = ["/(userName), you're stunning", "you got this girl!"]
-//
-//    var rando = Int.random(in: 0..<self.affirms.count)
-//
-//    var cou = self.affirms.count
+    var affirms = ["\(name), you're stunning", "you got this girl!", "you go girl!", "choose to be happy and love yourself today!", ]
     
-    
+    if (stud)
     
     
     /*

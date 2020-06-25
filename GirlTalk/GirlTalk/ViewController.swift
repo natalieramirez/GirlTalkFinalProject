@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-//<<<<<<< HEAD
-//=======
 
     @IBAction func nextPg(_ sender: Any) {
         
@@ -34,7 +32,7 @@ class ViewController: UIViewController {
         {
             isStudent = false
         }
-        let vc = ViewControllerMenu(nibName:"ViewControllerMenu", bundle: nil)
+        let vc = ViewControllerMenu(name: userName!)
         vc.name = userName!
         vc.stud = isStudent
         navigationController?.pushViewController(vc, animated: true)
@@ -42,6 +40,5 @@ class ViewController: UIViewController {
         
     }
    
-//>>>>>>> f774329f724028531f62d5de2289aeecd1b8d42b
 }
 
