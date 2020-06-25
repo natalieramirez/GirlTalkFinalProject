@@ -160,7 +160,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" barStyle="blackTranslucent" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfZ-D0-RMh">
-                                <rect key="frame" x="0.0" y="764" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="784" width="414" height="56"/>
                                 <color key="barTintColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
                                     <navigationItem id="MB0-m4-da0">
@@ -170,14 +170,32 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empowering Films" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvh-CW-hBV">
-                                <rect key="frame" x="113" y="54" width="188" height="30"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Empowering Films" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lvh-CW-hBV">
+                                <rect key="frame" x="44" y="54" width="327" height="50"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUD-eZ-Sib">
-                                <rect key="frame" x="75.5" y="92" width="263" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queen of Katwe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2b-aA-ujG">
+                                <rect key="frame" x="27" y="151" width="149" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by Mira Nair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAo-gg-Pnn">
+                                <rect key="frame" x="27" y="185" width="172" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bend It Like Beckham" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-7f-hMK">
+                                <rect key="frame" x="27" y="216" width="192" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Directed by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUD-eZ-Sib">
+                                <rect key="frame" x="76" y="106" width="263" height="24"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -185,14 +203,26 @@
                         </subviews>
                         <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="p2b-aA-ujG" secondAttribute="bottom" constant="607" id="0CY-CW-LBL"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="zAo-gg-Pnn" secondAttribute="trailing" constant="215" id="11J-QM-flr"/>
+                            <constraint firstItem="p2b-aA-ujG" firstAttribute="top" secondItem="HUD-eZ-Sib" secondAttribute="bottom" constant="15" id="1GR-KX-fsI"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="cIe-7f-hMK" secondAttribute="trailing" constant="195" id="1hd-fJ-hUf"/>
+                            <constraint firstItem="zAo-gg-Pnn" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="2vk-Rk-g7h"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="Lvh-CW-hBV" secondAttribute="trailing" constant="113" id="8Dj-hq-7OM"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="top" secondItem="qJx-To-oZk" secondAttribute="top" constant="54" id="EhV-6I-DEj"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="HUD-eZ-Sib" secondAttribute="bottom" constant="648" id="EpR-9d-4yR"/>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="cIe-7f-hMK" secondAttribute="bottom" constant="542" id="HVb-rq-9fv"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="75.5" id="M0F-Bn-nCx"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="113" id="RMd-Zx-j04"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="8" id="YsN-f1-Afi"/>
+                            <constraint firstItem="cIe-7f-hMK" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Zrf-YQ-sTU"/>
+                            <constraint firstItem="p2b-aA-ujG" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="cRz-DQ-u0l"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="680" id="gOp-qh-O96"/>
+                            <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="k8C-Gi-YqG"/>
+                            <constraint firstItem="zAo-gg-Pnn" firstAttribute="top" secondItem="p2b-aA-ujG" secondAttribute="bottom" constant="8" id="nd4-4i-vQm"/>
+                            <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="rsD-fM-MGg"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="HUD-eZ-Sib" secondAttribute="trailing" constant="75.5" id="tGn-gP-WJ3"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="p2b-aA-ujG" secondAttribute="trailing" constant="238" id="zcW-AA-O3R"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qJx-To-oZk"/>
                     </view>
@@ -200,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Pl-75-1cU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112" y="-107"/>
+            <point key="canvasLocation" x="1111.5942028985507" y="-107.14285714285714"/>
         </scene>
         <!--books-->
         <scene sceneID="rHJ-F5-vCE">
