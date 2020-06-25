@@ -166,6 +166,9 @@
                                     <navigationItem id="MB0-m4-da0">
                                         <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.left" catalog="system" id="EoT-eM-2zD">
                                             <color key="tintColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <segue destination="YaC-Ks-GeF" kind="show" id="l8f-Ck-8bw"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -218,30 +221,38 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Knock Down the House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W63-ug-yKJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock Down the House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W63-ug-yKJ">
                                 <rect key="frame" x="27" y="346" width="213" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directed by Rachel Lears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvP-aN-whl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Directed by Rachel Lears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvP-aN-whl">
                                 <rect key="frame" x="27" y="380" width="192" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paris is Burning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-e1-kgg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paris is Burning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-e1-kgg">
                                 <rect key="frame" x="27" y="411" width="138" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directed by Jenny Livingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJw-MX-TD2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by Jenny Livingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJw-MX-TD2">
                                 <rect key="frame" x="27" y="445" width="219" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Little Women" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX6-hg-9bO">
+                                <rect key="frame" x="27" y="476" width="117" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by Greta Gerwig" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKu-0g-gil">
+                                <rect key="frame" x="27" y="510" width="204" height="23"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -252,18 +263,33 @@
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="p2b-aA-ujG" secondAttribute="bottom" constant="607" id="0CY-CW-LBL"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="zAo-gg-Pnn" secondAttribute="trailing" constant="215" id="11J-QM-flr"/>
                             <constraint firstItem="p2b-aA-ujG" firstAttribute="top" secondItem="HUD-eZ-Sib" secondAttribute="bottom" constant="15" id="1GR-KX-fsI"/>
+                            <constraint firstItem="FJw-MX-TD2" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="1gL-YL-rXe"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="cIe-7f-hMK" secondAttribute="trailing" constant="195" id="1hd-fJ-hUf"/>
                             <constraint firstItem="zAo-gg-Pnn" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="2vk-Rk-g7h"/>
+                            <constraint firstItem="FJw-MX-TD2" firstAttribute="top" secondItem="xjO-e1-kgg" secondAttribute="bottom" constant="8" id="3LI-HB-k2J"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="eKu-0g-gil" secondAttribute="trailing" constant="183" id="3sf-HU-HA2"/>
+                            <constraint firstItem="eKu-0g-gil" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="62i-EN-QUy"/>
+                            <constraint firstItem="xjO-e1-kgg" firstAttribute="top" secondItem="UvP-aN-whl" secondAttribute="bottom" constant="8" id="6bO-wt-Xbr"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="Lvh-CW-hBV" secondAttribute="trailing" constant="113" id="8Dj-hq-7OM"/>
+                            <constraint firstItem="FJw-MX-TD2" firstAttribute="top" secondItem="xjO-e1-kgg" secondAttribute="bottom" constant="8" id="8lE-zq-o8V"/>
                             <constraint firstItem="Fbs-l6-QAk" firstAttribute="top" secondItem="Wyg-Fz-Feg" secondAttribute="bottom" constant="8" id="8uL-52-qfF"/>
+                            <constraint firstItem="fX6-hg-9bO" firstAttribute="top" secondItem="FJw-MX-TD2" secondAttribute="bottom" constant="8" id="Cr3-o4-vXf"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Wyg-Fz-Feg" secondAttribute="bottom" constant="511" id="Die-eJ-4q0"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="ooF-jH-TUm" secondAttribute="bottom" constant="446" id="ESV-w8-OIQ"/>
+                            <constraint firstItem="W63-ug-yKJ" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Eh7-XQ-7b8"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="top" secondItem="qJx-To-oZk" secondAttribute="top" constant="54" id="EhV-6I-DEj"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="HUD-eZ-Sib" secondAttribute="bottom" constant="648" id="EpR-9d-4yR"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="cIe-7f-hMK" secondAttribute="bottom" constant="542" id="HVb-rq-9fv"/>
+                            <constraint firstItem="eKu-0g-gil" firstAttribute="top" secondItem="fX6-hg-9bO" secondAttribute="bottom" constant="8" id="KCM-jL-N2l"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="xjO-e1-kgg" secondAttribute="trailing" constant="249" id="LRc-0K-jiV"/>
+                            <constraint firstItem="eKu-0g-gil" firstAttribute="top" secondItem="fX6-hg-9bO" secondAttribute="bottom" constant="8" id="Lti-zS-2hW"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="75.5" id="M0F-Bn-nCx"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="fX6-hg-9bO" secondAttribute="trailing" constant="270" id="MgK-nb-UwX"/>
+                            <constraint firstItem="fX6-hg-9bO" firstAttribute="top" secondItem="FJw-MX-TD2" secondAttribute="bottom" constant="8" id="Nrz-XO-oYN"/>
                             <constraint firstItem="Fbs-l6-QAk" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Q7m-V4-eAf"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="113" id="RMd-Zx-j04"/>
+                            <constraint firstItem="fX6-hg-9bO" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Ry8-ls-T7Q"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="W63-ug-yKJ" secondAttribute="trailing" constant="174" id="Smx-c3-WrM"/>
                             <constraint firstItem="Wyg-Fz-Feg" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="TaQ-Hc-utr"/>
                             <constraint firstItem="ooF-jH-TUm" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="VEb-Ji-GLe"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="8" id="YsN-f1-Afi"/>
@@ -275,11 +301,16 @@
                             <constraint firstItem="Wyg-Fz-Feg" firstAttribute="top" secondItem="cIe-7f-hMK" secondAttribute="bottom" constant="8" id="eij-yb-gRv"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="680" id="gOp-qh-O96"/>
                             <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="k8C-Gi-YqG"/>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="eKu-0g-gil" secondAttribute="bottom" constant="251" id="mZG-4i-0gm"/>
+                            <constraint firstItem="UvP-aN-whl" firstAttribute="top" secondItem="W63-ug-yKJ" secondAttribute="bottom" constant="8" id="mbv-GW-ItQ"/>
                             <constraint firstItem="zAo-gg-Pnn" firstAttribute="top" secondItem="p2b-aA-ujG" secondAttribute="bottom" constant="8" id="nd4-4i-vQm"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="ooF-jH-TUm" secondAttribute="trailing" constant="79" id="nef-Cz-g7U"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="FJw-MX-TD2" secondAttribute="trailing" constant="168" id="qYe-XK-rD6"/>
+                            <constraint firstItem="W63-ug-yKJ" firstAttribute="top" secondItem="ooF-jH-TUm" secondAttribute="bottom" constant="8" id="riy-nZ-qIf"/>
                             <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="rsD-fM-MGg"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="HUD-eZ-Sib" secondAttribute="trailing" constant="75.5" id="tGn-gP-WJ3"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Fbs-l6-QAk" secondAttribute="bottom" constant="477" id="twh-Oc-CY4"/>
+                            <constraint firstItem="xjO-e1-kgg" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="yCr-fr-I2V"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="p2b-aA-ujG" secondAttribute="trailing" constant="238" id="zcW-AA-O3R"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qJx-To-oZk"/>
@@ -406,6 +437,9 @@
             <point key="canvasLocation" x="1862" y="569"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="l8f-Ck-8bw"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-06-24 at 10.34.09 AM" width="920" height="870"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
