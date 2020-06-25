@@ -176,6 +176,12 @@
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Directed by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUD-eZ-Sib">
+                                <rect key="frame" x="76" y="106" width="263" height="24"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Queen of Katwe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2b-aA-ujG">
                                 <rect key="frame" x="27" y="151" width="149" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
@@ -194,9 +200,49 @@
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Directed by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUD-eZ-Sib">
-                                <rect key="frame" x="76" y="106" width="263" height="24"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by Gurinder Chadha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyg-Fz-Feg">
+                                <rect key="frame" x="27" y="250" width="231" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RBG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbs-l6-QAk">
+                                <rect key="frame" x="27" y="281" width="41" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by Besty West and Julie Cohen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooF-jH-TUm">
+                                <rect key="frame" x="27" y="315" width="308" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Knock Down the House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W63-ug-yKJ">
+                                <rect key="frame" x="27" y="346" width="213" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directed by Rachel Lears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvP-aN-whl">
+                                <rect key="frame" x="27" y="380" width="192" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paris is Burning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-e1-kgg">
+                                <rect key="frame" x="27" y="411" width="138" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directed by Jenny Livingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJw-MX-TD2">
+                                <rect key="frame" x="27" y="445" width="219" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -209,19 +255,31 @@
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="cIe-7f-hMK" secondAttribute="trailing" constant="195" id="1hd-fJ-hUf"/>
                             <constraint firstItem="zAo-gg-Pnn" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="2vk-Rk-g7h"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="Lvh-CW-hBV" secondAttribute="trailing" constant="113" id="8Dj-hq-7OM"/>
+                            <constraint firstItem="Fbs-l6-QAk" firstAttribute="top" secondItem="Wyg-Fz-Feg" secondAttribute="bottom" constant="8" id="8uL-52-qfF"/>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Wyg-Fz-Feg" secondAttribute="bottom" constant="511" id="Die-eJ-4q0"/>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="ooF-jH-TUm" secondAttribute="bottom" constant="446" id="ESV-w8-OIQ"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="top" secondItem="qJx-To-oZk" secondAttribute="top" constant="54" id="EhV-6I-DEj"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="HUD-eZ-Sib" secondAttribute="bottom" constant="648" id="EpR-9d-4yR"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="cIe-7f-hMK" secondAttribute="bottom" constant="542" id="HVb-rq-9fv"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="75.5" id="M0F-Bn-nCx"/>
+                            <constraint firstItem="Fbs-l6-QAk" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Q7m-V4-eAf"/>
                             <constraint firstItem="Lvh-CW-hBV" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="113" id="RMd-Zx-j04"/>
+                            <constraint firstItem="Wyg-Fz-Feg" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="TaQ-Hc-utr"/>
+                            <constraint firstItem="ooF-jH-TUm" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="VEb-Ji-GLe"/>
                             <constraint firstItem="HUD-eZ-Sib" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="8" id="YsN-f1-Afi"/>
                             <constraint firstItem="cIe-7f-hMK" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="Zrf-YQ-sTU"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="Wyg-Fz-Feg" secondAttribute="trailing" constant="156" id="aJM-75-Ak9"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="Fbs-l6-QAk" secondAttribute="trailing" constant="346" id="b07-CO-oL4"/>
                             <constraint firstItem="p2b-aA-ujG" firstAttribute="leading" secondItem="qJx-To-oZk" secondAttribute="leading" constant="27" id="cRz-DQ-u0l"/>
+                            <constraint firstItem="ooF-jH-TUm" firstAttribute="top" secondItem="Fbs-l6-QAk" secondAttribute="bottom" constant="8" id="dWp-WW-5uG"/>
+                            <constraint firstItem="Wyg-Fz-Feg" firstAttribute="top" secondItem="cIe-7f-hMK" secondAttribute="bottom" constant="8" id="eij-yb-gRv"/>
                             <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Lvh-CW-hBV" secondAttribute="bottom" constant="680" id="gOp-qh-O96"/>
                             <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="k8C-Gi-YqG"/>
                             <constraint firstItem="zAo-gg-Pnn" firstAttribute="top" secondItem="p2b-aA-ujG" secondAttribute="bottom" constant="8" id="nd4-4i-vQm"/>
+                            <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="ooF-jH-TUm" secondAttribute="trailing" constant="79" id="nef-Cz-g7U"/>
                             <constraint firstItem="cIe-7f-hMK" firstAttribute="top" secondItem="zAo-gg-Pnn" secondAttribute="bottom" constant="8" id="rsD-fM-MGg"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="HUD-eZ-Sib" secondAttribute="trailing" constant="75.5" id="tGn-gP-WJ3"/>
+                            <constraint firstItem="mfZ-D0-RMh" firstAttribute="top" secondItem="Fbs-l6-QAk" secondAttribute="bottom" constant="477" id="twh-Oc-CY4"/>
                             <constraint firstItem="qJx-To-oZk" firstAttribute="trailing" secondItem="p2b-aA-ujG" secondAttribute="trailing" constant="238" id="zcW-AA-O3R"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qJx-To-oZk"/>
