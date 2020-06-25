@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+//<<<<<<< HEAD
+//=======
 
     @IBAction func nextPg(_ sender: Any) {
         
@@ -40,5 +42,6 @@ class ViewController: UIViewController {
         
     }
    
+//>>>>>>> f774329f724028531f62d5de2289aeecd1b8d42b
 }
 
