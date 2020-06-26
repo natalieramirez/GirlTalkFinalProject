@@ -29,7 +29,7 @@ class ViewControllerMenu: UIViewController {
         
     }
 
-    var affirms = ["Jennifer, you're stunning", "you got this girl!", "you go girl!", "choose to be happy and love yourself today!","you may not be perfect, but you are you, and that is enough", "you are capable of doing difficult things", "take care of your brain!", "you are in control of your own success", "I am enough. I am strong and I am brave"]
+    var affirms = ["Jennifer, you're stunning", "you got this girl!", "you go girl!", "choose to be happy and love yourself today!","you may not be perfect, but you are you, and that is enough", "you are capable of doing difficult things", "take care of your brain!", "you are in control of your own success", "I am enough. I am strong and I am brave", "I choose to love myself today"]
     
 //    var count = 0
     
@@ -68,7 +68,7 @@ class ViewControllerMenu: UIViewController {
 //        }
 //        else
 //        {
-            let rand = Int.random(in: 0..<9)
+            let rand = Int.random(in: 0..<10)
                 let theMessage = affirms[rand]
                //create the alert constant
                 let alert = UIAlertController(title: "affirmation", message: theMessage, preferredStyle: .alert)

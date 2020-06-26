@@ -1,5 +1,5 @@
 //
-//  MusicViewController.swift
+//  BlankViewController.swift
 //  GirlTalk
 //
 //  Created by Jemma Siegel on 6/26/20.
@@ -8,8 +8,7 @@
 
 import UIKit
 
-class MusicViewController: UIViewController {
-    
+class BlankViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,13 +16,7 @@ class MusicViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func button(_ sender: UIButton) {
-        if let url = URL(string: "https://open.spotify.com/playlist/1ZAyqjnckjLValY2OjFQyy?si=KATOudwOS82Lax1YTYr3uA")
-        {
-        UIApplication.shared.open(url, options: [:])
-        }
-    }
-    
+
     /*
     // MARK: - Navigation
 

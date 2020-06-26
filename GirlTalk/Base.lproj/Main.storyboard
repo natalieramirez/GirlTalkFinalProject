@@ -121,7 +121,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50" scale="large"/>
                                 </state>
                                 <connections>
-                                    <segue destination="atZ-oK-p2m" kind="show" id="rrr-ap-idL"/>
+                                    <segue destination="atZ-oK-p2m" kind="show" id="jr0-wm-jwp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYF-6a-F66">
@@ -165,14 +165,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="empowering books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsu-sp-d2B">
-                                <rect key="frame" x="44" y="50" width="329" height="50"/>
+                                <rect key="frame" x="44" y="55" width="329" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="written by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0I-Du-lQP">
-                                <rect key="frame" x="77" y="108" width="249" height="24"/>
+                                <rect key="frame" x="77" y="104" width="249" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -302,18 +302,16 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Written by Kathryn Stockett" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWc-gP-eqd">
-                                <rect key="frame" x="20" y="719" width="213" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Written by Audre Lorde" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWc-gP-eqd">
+                                <rect key="frame" x="20" y="719" width="183" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRp-bQ-2Uz">
-                                <rect key="frame" x="20" y="685" width="81" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sister Outsider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRp-bQ-2Uz">
+                                <rect key="frame" x="20" y="685" width="133" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Help
-</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -331,7 +329,7 @@
         <!--write affirms-->
         <scene sceneID="VDI-jt-vgi">
             <objects>
-                <viewController title="write affirms" id="atZ-oK-p2m" customClass="ViewControllerMakeAffirms" customModule="GirlTalk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="write affirms" id="atZ-oK-p2m" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hyL-YQ-TNO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,7 +349,7 @@
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-IZ-AcJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VF-IZ-AcJ">
                                 <rect key="frame" x="29" y="588" width="352" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
@@ -374,10 +372,37 @@
         <!--music-->
         <scene sceneID="wpB-Hn-PtG">
             <objects>
-                <viewController title="music" id="EnM-aB-zet" sceneMemberID="viewController">
+                <viewController title="music" id="EnM-aB-zet" customClass="MusicViewController" customModule="GirlTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rRr-wn-6k1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="empowering songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXz-zF-Qnh">
+                                <rect key="frame" x="45" y="40" width="324" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sung by women, for women." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckK-03-4pO">
+                                <rect key="frame" x="91" y="98" width="232" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bz8-06-9YD">
+                                <rect key="frame" x="146" y="177" width="123" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="music.note.list" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="79" scale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="EnM-aB-zet" eventType="touchUpInside" id="vYD-0P-898"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Z7z-71-WOo"/>
                     </view>
@@ -399,7 +424,7 @@
                                 <rect key="frame" x="0.0" y="784" width="414" height="44"/>
                                 <color key="barTintColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="empowering films" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVH-ij-Dmq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="empowering films" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVH-ij-Dmq">
                                 <rect key="frame" x="44" y="54" width="327" height="50"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -447,8 +472,9 @@
                                 <color key="textColor" red="0.87450980389999999" green="0.80784313730000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Directed by Rachel Lears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5W-Ih-Y4D">
-                                <rect key="frame" x="27" y="380" width="192" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directed by Rachel Lears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5W-Ih-Y4D">
+                                <rect key="frame" x="27" y="380" width="204" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -487,7 +513,6 @@
                         <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="9sf-Zj-cXu" firstAttribute="top" secondItem="rUC-xQ-U74" secondAttribute="bottom" constant="8" id="1Qa-Oz-GI6"/>
-                            <constraint firstItem="kzc-N6-L9z" firstAttribute="top" secondItem="w5W-Ih-Y4D" secondAttribute="bottom" constant="8" id="23D-aC-L1m"/>
                             <constraint firstItem="TBV-7b-ujf" firstAttribute="top" secondItem="DLr-2P-6OR" secondAttribute="bottom" constant="251" id="33y-bS-nMK"/>
                             <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="NiZ-OA-iyI" secondAttribute="trailing" constant="270" id="4Hs-NM-Wo2"/>
                             <constraint firstItem="TBV-7b-ujf" firstAttribute="top" secondItem="oob-Sj-axW" secondAttribute="bottom" constant="648" id="4fM-BO-K3E"/>
@@ -498,16 +523,15 @@
                             <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="hEP-mL-rSg" secondAttribute="trailing" constant="215" id="G1K-Th-kcl"/>
                             <constraint firstItem="CjE-Q9-S1D" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="27" id="GH2-eM-j1i"/>
                             <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="rUC-xQ-U74" secondAttribute="trailing" constant="195" id="ImM-Ba-mRX"/>
-                            <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="rVH-ij-Dmq" secondAttribute="trailing" constant="113" id="IwJ-0i-jwV"/>
-                            <constraint firstItem="w5W-Ih-Y4D" firstAttribute="top" secondItem="B4H-fe-unu" secondAttribute="bottom" constant="8" id="LCJ-VT-2iU"/>
+                            <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="rVH-ij-Dmq" secondAttribute="trailing" constant="43" id="IwJ-0i-jwV"/>
                             <constraint firstItem="KH7-Kb-pYj" firstAttribute="trailing" secondItem="oob-Sj-axW" secondAttribute="trailing" constant="75.5" id="Lw0-Lk-kRW"/>
                             <constraint firstItem="MgK-Ab-Yqa" firstAttribute="top" secondItem="9sf-Zj-cXu" secondAttribute="bottom" constant="8" id="M16-iQ-kZR"/>
                             <constraint firstItem="xKa-mo-dSN" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="27" id="OIQ-i5-vvb"/>
                             <constraint firstItem="gQ0-TM-bSn" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="27" id="ORa-hk-tna"/>
                             <constraint firstItem="TBV-7b-ujf" firstAttribute="top" secondItem="rUC-xQ-U74" secondAttribute="bottom" constant="542" id="Ode-kE-3Dn"/>
-                            <constraint firstItem="rVH-ij-Dmq" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="113" id="Oge-5K-oAZ"/>
+                            <constraint firstItem="rVH-ij-Dmq" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="44" id="Oge-5K-oAZ"/>
                             <constraint firstItem="TBV-7b-ujf" firstAttribute="top" secondItem="CjE-Q9-S1D" secondAttribute="bottom" constant="446" id="Or9-Qt-bk3"/>
-                            <constraint firstItem="oob-Sj-axW" firstAttribute="top" secondItem="rVH-ij-Dmq" secondAttribute="bottom" constant="8" id="PFC-jX-5bw"/>
+                            <constraint firstItem="oob-Sj-axW" firstAttribute="top" secondItem="rVH-ij-Dmq" secondAttribute="bottom" constant="2" id="PFC-jX-5bw"/>
                             <constraint firstItem="DLr-2P-6OR" firstAttribute="top" secondItem="NiZ-OA-iyI" secondAttribute="bottom" constant="8" id="PS0-ih-Vp5"/>
                             <constraint firstItem="B4H-fe-unu" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="27" id="VBd-3d-6NJ"/>
                             <constraint firstItem="MgK-Ab-Yqa" firstAttribute="leading" secondItem="KH7-Kb-pYj" secondAttribute="leading" constant="27" id="VSj-U0-KjC"/>
@@ -545,7 +569,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TTY-BH-CIE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075" y="-107"/>
+            <point key="canvasLocation" x="1073.913043478261" y="-107.14285714285714"/>
         </scene>
     </scenes>
     <resources>
@@ -556,6 +580,7 @@
         <image name="film" catalog="system" width="128" height="93"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
         <image name="music.note" catalog="system" width="97" height="128"/>
+        <image name="music.note.list" catalog="system" width="128" height="113"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="plus" catalog="system" width="128" height="113"/>
     </resources>

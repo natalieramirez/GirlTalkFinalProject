@@ -15,7 +15,7 @@
 		1465241424A2821A000D42E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1465241324A2821A000D42E4 /* Assets.xcassets */; };
 		1465241724A2821A000D42E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1465241524A2821A000D42E4 /* LaunchScreen.storyboard */; };
 		1465241F24A3D5EA000D42E4 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */; };
-		1465242124A3D625000D42E4 /* ViewControllerMakeAffirms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */; };
+		1465242324A639E7000D42E4 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465242224A639E7000D42E4 /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		1465241624A2821A000D42E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1465241824A2821A000D42E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
-		1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMakeAffirms.swift; sourceTree = "<group>"; };
+		1465242224A639E7000D42E4 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				1465240924A28218000D42E4 /* SceneDelegate.swift */,
 				1465240B24A28218000D42E4 /* ViewController.swift */,
 				1465240D24A28218000D42E4 /* Main.storyboard */,
-				1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */,
+				1465242224A639E7000D42E4 /* MusicViewController.swift */,
 				1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */,
 				1465241324A2821A000D42E4 /* Assets.xcassets */,
 				1465241524A2821A000D42E4 /* LaunchScreen.storyboard */,
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1465240C24A28218000D42E4 /* ViewController.swift in Sources */,
-				1465242124A3D625000D42E4 /* ViewControllerMakeAffirms.swift in Sources */,
+				1465242324A639E7000D42E4 /* MusicViewController.swift in Sources */,
 				1465240824A28218000D42E4 /* AppDelegate.swift in Sources */,
 				1465241F24A3D5EA000D42E4 /* ViewControllerMenu.swift in Sources */,
 				1465240A24A28218000D42E4 /* SceneDelegate.swift in Sources */,
